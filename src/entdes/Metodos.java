@@ -28,9 +28,17 @@ public class Metodos {
 		
 	}
 	
-	static void devuelveCaracterdependiendoDelNumero(int numero) {
+	static char devuelveCaracterdependiendoDelNumero(int numero) {
 		
-		System.out.println((char)numero);
+		char caracter=(char) numero;
+		return caracter;
 
+	}
+
+	static int devuelveEnteroCorraspondiente(char caracter) {
+		
+		int numero=(int) caracter;
+		return numero;
+		
 	}
 }
